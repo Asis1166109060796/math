@@ -9,12 +9,12 @@ def minus():#สิทธิโชค ลิ้มไล้
             b = float(input(": "))
             ผลลัพธ์ = a - b
             print(ผลลัพธ์)
-def multi():
+def multi():#ปณิธาน ปัญญารัตนโยธิน
             a = float(input(": "))
             b = float(input(": "))
-            ผลลัพธ์ = 
+            ผลลัพธ์ = a * b
             print(ผลลัพธ์)
-def divi():
+def divi():#ปณิธาน ปัญญารัตนโยธิน
             a = float(input(": "))
             b = float(input(": "))
             ผลลัพธ์ = 
@@ -31,7 +31,7 @@ while True:
     elif(choose==2):
         minus()
     elif(choose==3):
-        
+        multi()
     elif(choose==4):
         
     else:
