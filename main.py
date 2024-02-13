@@ -14,10 +14,10 @@ def multi():#ปณิธาน ปัญญารัตนโยธิน
             b = float(input(": "))
             ผลลัพธ์ = a * b
             print(ผลลัพธ์)
-def divi():
+def divi():#ธีรเดช เจริญผล
             a = float(input(": "))
             b = float(input(": "))
-            ผลลัพธ์ = 
+            ผลลัพธ์ = a / b
             print(ผลลัพธ์)
 while True:
     print("บวก กด 1")
@@ -33,6 +33,6 @@ while True:
     elif(choose==3):
         multi()
     elif(choose==4):
-        
+        divi()
     else:
         print("error")
