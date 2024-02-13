@@ -14,7 +14,7 @@ def multi():#ปณิธาน ปัญญารัตนโยธิน
             b = float(input(": "))
             ผลลัพธ์ = a * b
             print(ผลลัพธ์)
-def divi():#ปณิธาน ปัญญารัตนโยธิน
+def divi():
             a = float(input(": "))
             b = float(input(": "))
             ผลลัพธ์ = 
